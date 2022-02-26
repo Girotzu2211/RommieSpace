@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Sara Palacios, Jhan Carlos Celi">
+    <title>Registro</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/sign-in/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="../css/signin.css" rel="stylesheet">
+  </head>
+  <body class="text-center">
+    
+<main class="form-signin">
+    <img class="mb-4" src="../IMG/logos/icons.png" alt="" width="50%">
+    <h1 class="h3 mb-3 fw-normal">Crear una cuenta</h1>
+    <form class="row g-3">
+
+        <div class="col-md-6 text-start">
+          <label for="Nombre-input" class="form-label">Nombre</label>
+          <input type="text" class="form-control" id="Nombre-input" >
+        </div>
+        <div class="col-md-6 text-start">
+          <label for="Apellido" class="form-label">Apellido</label>
+          <input type="text" class="form-control" id="Apellido" >
+        </div>
+
+        <div class="col-12 text-start" >
+          <label for="Celular" class="form-label">Número de Celular</label>
+          <input type="text" class="form-control" id="Celular">
+        </div>
+
+
+        <div class="col-12 text-start">
+            <label for="fecha" class="form-label">Fecha de Nacimiento</label>
+            <input type="date" class="form-control" id="fecha">
+        </div>
+
+        <div class="col-12 text-start">
+            <label for="Genero" class="form-label">Género</label>
+            <select id="Genero" class="form-select">
+                <option selected>Seleccione</option>
+                <option>Femenino</option>
+                <option>Masculino</option>
+              </select>        
+        </div>
+        <div class="col-12 text-start">
+            <label for="Correo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="Correo" >
+          </div>
+
+        <div class="col-md-6 text-start">
+            <label for="inputPassword" class="form-label">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword">
+        </div>
+        <div class="col-md-6 text-start">
+            <label for="inputPassword2" class="form-label">Confirme contraseña</label>
+            <input type="password" class="form-control" id="inputPassword2">
+        </div>
+
+        <div class="col-12">
+            <button class="w-100 btn btn-lg btn-light butt" type="submit" id="registrarse">Registrarse</button>
+            <a href="ingresar.html">¿Ya tiene cuenta?</a>
+        </div>
+      </form>
+</main>
+
+
+    
+  </body>
+</html>
