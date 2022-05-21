@@ -1,0 +1,25 @@
+{
+  "name": "prac2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sara Palacios",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parser": "^3.0.0",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "fs": "0.0.1-security",
+    "mongodb": "^4.5.0",
+    "multer": "^1.4.4",
+    "pg": "^8.7.3"
+  },
+  "engines": {
+    "node": "v14.19.0"
+  }
+}

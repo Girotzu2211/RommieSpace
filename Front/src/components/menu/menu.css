@@ -1,0 +1,22 @@
+.logo {
+ width: 25%;
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+.navi{
+  background-color: #5e60e7;
+  
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
+.logout{
+  color:red;
+}
