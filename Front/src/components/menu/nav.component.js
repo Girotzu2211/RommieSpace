@@ -16,7 +16,7 @@ class NavCustom extends React.Component{
             </Nav.Item>
             <Nav.Item>
             <Button variant="light" className='m-2' size='sm' href='/'>
-              Log Out
+              Log Out button 
             </Button>
             </Nav.Item>
 

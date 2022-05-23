@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './../../img/icons.png';
 import './../../Login.css';
+
 import Button from 'react-bootstrap/Button';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
@@ -10,7 +11,7 @@ import { Form, FormGroup } from 'react-bootstrap';
 import axios from 'axios';
 
 
-class Home extends React.Component{
+class Ingresar extends React.Component{
 
     constructor(props) {
         super(props);
@@ -96,4 +97,4 @@ class Home extends React.Component{
     }
 }
 
-export default Home;
+export default Ingresar;

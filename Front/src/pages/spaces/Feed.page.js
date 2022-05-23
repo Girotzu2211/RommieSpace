@@ -3,6 +3,11 @@ import React from 'react';
 import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Footer from "../../components/Footer/Footer";
+import Options from "../../components/options/Options";
+
+import Video from "../../components/Video/Video";
+
 
 import Button from 'react-bootstrap/Button';
 
@@ -48,6 +53,7 @@ class Feed extends React.Component{
                 <h1>
                     Bienvenido {this.state.Nombre}
                 </h1>
+                <Footer/>
                 </Col>
                 <Col sm={2}></Col>
             </Row>
