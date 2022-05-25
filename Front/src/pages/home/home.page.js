@@ -3,11 +3,10 @@ import logo from './../../img/icons.png';
 import './../../Login.css';
 
 import Button from 'react-bootstrap/Button';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
+
 
 import { Link } from "react-router-dom";
-import { Form, FormGroup } from 'react-bootstrap';
+import { Form } from 'react-bootstrap';
 import axios from 'axios';
 
 

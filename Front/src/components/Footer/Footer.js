@@ -8,12 +8,12 @@ const Footer = () => {
       Made with <HeartTwoTone twoToneColor="#eb2f96" /> By{" "}
       <a
         className="footer__link"
-        href="https://github.com/mihir0699/Video-Chat"
+        href="https://github.com/Girotzu2211/RommieSpace"
         target="_blank"
         style={{ color: "#fdfdfd" }}
         rel="noreferrer"
       >
-        Mihir Gupta
+        Sara Palacios, Jhan Celi
       </a>
     </footer>
   );

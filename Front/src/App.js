@@ -6,8 +6,8 @@ import Container from 'react-bootstrap/Container';
 import Home from './pages/home/home.page'
 import Feed from './pages/spaces/Feed.page'
 import Registro from './pages/spaces/registro.page'
+import Pomodoro from './pages/spaces/Pomodoro'
 import Video from "./Home";
-import Game from "./components/Game/Game.compnent"
 import {
   BrowserRouter,
   Routes,
@@ -24,6 +24,7 @@ function App() {
               <Route path="/Feed/:Nombre" element={<Feed />} />
               <Route path="/Registro" element={<Registro />} />
               <Route path="/VideoChat" element={<Video />} />
+              <Route path="/Pomodoro" element={<Pomodoro />} />
 
 
             </Routes>

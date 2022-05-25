@@ -1,19 +1,12 @@
 import React from 'react';
 
-import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import Footer from "../../components/Footer/Footer";
-import Options from "../../components/options/Options";
+import Pomodoro from './Pomodoro'
 
-import Video from "../../components/Video/Video";
-
-
-import Button from 'react-bootstrap/Button';
 
 import Menu from '../../components/menu/menu.component'
 
-import axios from 'axios';
 
 import {
     useNavigate,
@@ -53,7 +46,11 @@ class Feed extends React.Component{
                 <h1>
                     Bienvenido {this.state.Nombre}
                 </h1>
-                <Footer/>
+                <h2>
+                    Este es su espacio de concentración
+                </h2>
+
+                <Pomodoro/>
                 </Col>
                 <Col sm={2}></Col>
             </Row>

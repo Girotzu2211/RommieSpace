@@ -3,9 +3,6 @@ import { useEffect } from "react";
 import Video from "./components/Video/Video";
 import VideoState from "./context/VideoState";
 
-import Options from "./components/options/Options";
-import Footer from "./components/Footer/Footer";
-
 import Menu from './components/menu/menu.component'
 import Game from './components/Game/Game.compnent'
 import Row from 'react-bootstrap/Row';
@@ -35,11 +32,14 @@ const Home = () => {
         </Col>
         <Col sm={5} >
         <Game />
+
         </Col>
 
         <Col sm={6} className='justify-content-start text-start'>
         <Video />
+        
         </Col>
+        
       </Row>
       
     </VideoState>

@@ -1,0 +1,52 @@
+
+
+body {
+  background: #7b73c2;
+  font-family: "Roboto", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+::selection {
+  background: #3D348B;
+  color: #fff;
+}
+
+.Content {
+  display: flex;
+  flex-direction: row;
+  text-align: -webkit-center;
+}
+
+@media (max-width: 1000px) {
+  .Content {
+    flex-direction: column;
+  }
+}
+
+.Pomodoro {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  min-height: 600px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
+
+.TaskPainel {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #7b73c2;
+  height: 100%;
+  min-height: 600px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 0;
+}
